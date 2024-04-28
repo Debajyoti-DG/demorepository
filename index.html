@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: coral
+        }
+
+        .container {
+            margin: 100px;
+            padding: 200px;
+            
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: white;
+        }
+
+        .sub-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .sub-container p {
+            font-size: 30px;
+        }
+
+        .container .sub-container ul {
+
+            list-style: none;
+        }
+
+        .container .sub-container ul li a {
+            text-decoration: none;
+            margin-left: -140px;
+        }
+
+        #list{
+            margin-top: 100px;
+        }
+
+    </style>
+      
+</head>
+<body>
+    <div class="container">
+        <div class = "sub-container"><p>My Portfolio</p></div>
+        <div class="sub-container" id="list">
+            <ul>
+                <li><a href="table1.html">Table 1</a></li>
+                <li><a href="table2.html">Table 2</a></li> 
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
